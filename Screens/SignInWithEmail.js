@@ -1,6 +1,6 @@
 import React,{useState} from "react"
-import {Text,View,Image, TextInput,TouchableOpacity, StyleSheet} from "react-native"
-import image from  "../assets/hoot.png"
+import {Text,View,Image, TextInput,TouchableOpacity, StyleSheet,Dimensions} from "react-native"
+import image from  "../assets/sociallite.png"
 import Eyeoff from "react-native-vector-icons/Entypo"
 import Eyeon from "react-native-vector-icons/FontAwesome";
 import {useTheme} from "react-native-paper"
@@ -25,9 +25,9 @@ const SignInWithEmail =()=>{
         <View style={{flex:1, backgroundColor:'#ffffff'}}>
         <View style={{marginTop:20,alignItems:'center', justifyContent:'center'}}>
   <Image
-  style={{marginLeft:18,marginTop:13, width:260,backgroundColor:"#ffffff", height:100, borderRadius:20}} source={image}/>
+  style={{marginTop:13, width:Dimensions.get('screen').width/3,backgroundColor:"#ffffff", height:160}} source={image}/>
 </View>
-<Text style={{textAlign:'center', fontSize:22, fontWeight:'bold'}}>Sign in your Hootsuite account</Text>
+<Text style={{textAlign:'center', fontSize:22, fontWeight:'bold'}}>Sign in your Sociallite account</Text>
 <View style={{marginTop:20}}>
     <Text style={{fontSize:22, marginLeft:22}}>Email</Text>
     <TextInput

@@ -13,7 +13,7 @@ const SignInWithApple =({navigation})=>{
             </View>
             <View style={{justifyContent:'center',marginTop:33 ,alignItems:'center'}}>
             <Logo name="apple" color="#000" size={60}  />
-            <Text style={{textAlign:'center',marginTop:10}}>Use your Apple ID to sign in to {"\n"} Hootsuite.</Text>
+            <Text style={{textAlign:'center',marginTop:10}}>Use your Apple ID to sign in to {"\n"} Sociallite.</Text>
             </View>
             <View style={{marginTop:17 ,}}>
           <TextInput placeholder="Apple ID"

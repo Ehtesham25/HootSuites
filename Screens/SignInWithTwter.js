@@ -17,15 +17,15 @@ const SignInWithTwter =()=>{
           
             </View>
             <View style={{marginTop:20}}>  
-                <Text style={{fontSize:20}}>  Authorize Hootsuite Inc. to {"\n"}   access your account?</Text>           
+                <Text style={{fontSize:20}}>  Authorize Sociallite Inc. to {"\n"}   access your account?</Text>           
           </View>
           <View style={{flexDirection:'row',marginTop:10}}>
           <Logo name="twitter" color="#5DA9DD" size={40} style={{paddingTop:2,paddingLeft:7,paddingTop:16}} />
           <View style={{marginLeft:10,marginTop:19}}>
-          <Text style={{marginBottom:6}}> Hootsuite Inc.</Text>
-          <Text style={{marginBottom:6}}>By Hootsuite Inc.</Text>
+          <Text style={{marginBottom:6}}> Sociallite Inc.</Text>
+          <Text style={{marginBottom:6}}>By Sociallite Inc.</Text>
           <TouchableOpacity>
-              <Text style={{marginBottom:6}}>www.hootsuite.com</Text>
+              <Text style={{marginBottom:6}}>www.Sociallite.com</Text>
               <Text style={{color:'#4064AC',marginBottom:6}}>privacy Policy</Text>
               <Text style={{color:'#4064AC',marginBottom:6}}>Terms and Conditions</Text>
           </TouchableOpacity>

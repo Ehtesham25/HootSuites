@@ -41,11 +41,10 @@ return(
        <TouchableOpacity onPress={()=>navigation.navigate("SignInWithEmail")} style={{borderWidth:0.6,backgroundColor:'#ffffff',marginHorizontal:30,height:'21%',flexDirection:'row',borderRadius:4}}>
        <EmailLogo name="email" color="black" size={25} style={{paddingTop:4,paddingLeft:7}} />
           <Text style={{color:'#000000',textAlign:'center',paddingLeft:30,paddingTop:4,fontSize:18}}>Sign Up via email</Text>
-           
-       </TouchableOpacity>
+           </TouchableOpacity>
    </View>
 
- <View style={{justifyContent:'center', alignItems:'center'}}>
+ <View style={{justifyContent:'center', alignItems:'center',marginTop:-40}}>
  <Text style={{fontSize:12}}>Already have a Sociallite Account? </Text>
  <TouchableOpacity onPress={()=>navigation.navigate("SignInScreen")}>
  <Text style={{fontWeight:'bold',color:"#227235"}}>Log in to your account</Text>

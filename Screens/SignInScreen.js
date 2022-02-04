@@ -56,7 +56,7 @@ const SignInScreen =({navigation}) =>{
        </TouchableOpacity>
    </View>
 
-    <View>
+    <View style={{marginTop:-60}}>
         <Text style={{textAlign:'center', fontSize:12}}>Don't have a Sociallite Account?</Text>
         <TouchableOpacity onPress={()=>navigation.navigate("SignUpScreen")} >
         <Text style={{textAlign:'center', fontWeight:'bold',color:"#227235"}}>Create a new account</Text>

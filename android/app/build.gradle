@@ -131,6 +131,7 @@ android {
     defaultConfig {
         applicationId "com.hootsuite"
         minSdkVersion rootProject.ext.minSdkVersion
+          multiDexEnabled true
         targetSdkVersion =29
          
         versionCode 1

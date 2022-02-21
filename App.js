@@ -1,12 +1,11 @@
-import React from "react"
-import SplashScreen from "./Screens/SplashScreen"
-import Roostack from "./Screens/RootStack"
+import React from 'react';
+import Roostack from './Screens/RootStack';
 
-const App=()=>{
-  return(
+const App = () => {
+  return (
     <>
-   <Roostack/>
+      <Roostack />
     </>
-  )
-}
-export default App
+  );
+};
+export default App;

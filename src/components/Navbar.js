@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'row',
-    backgroundColor: 'red',
+    backgroundColor: '#99CDFF',
     paddingVertical: 15,
     paddingHorizontal: 20,
   },
@@ -41,5 +41,6 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     letterSpacing: 3,
     fontWeight: 'bold',
+    backgroundColor: '#99CDFF',
   },
 });

@@ -10,6 +10,7 @@ import SignInWithFB from "./SignInWithFB"
 import SignInWithApple from "./SignInWithApple"
 import SingleSignIn from "./SingleSignIn"
 import SignInWithEmail from "./SignInWithEmail"
+import Home from "./Home"
 
 
 const Stack = createStackNavigator()
@@ -28,6 +29,7 @@ const RootStack =()=>{
                 <Stack.Screen name="SignInWithApple" component={SignInWithApple}/>
                 <Stack.Screen name="SingleSignIn" component={SingleSignIn}/>
                 <Stack.Screen name="SignInWithEmail" component={SignInWithEmail}/>
+                <Stack.Screen name="Home" component={Home}/>
             </Stack.Navigator>
         </NavigationContainer>
 

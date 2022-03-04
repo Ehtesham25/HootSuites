@@ -11,6 +11,8 @@ import SignInWithApple from "./SignInWithApple"
 import SingleSignIn from "./SingleSignIn"
 import SignInWithEmail from "./SignInWithEmail"
 import Home from "./Home"
+import DashBoard from "./DashBoard"
+import SearchScreen from "./SearchScreen"
 
 
 const Stack = createStackNavigator()
@@ -30,6 +32,8 @@ const RootStack =()=>{
                 <Stack.Screen name="SingleSignIn" component={SingleSignIn}/>
                 <Stack.Screen name="SignInWithEmail" component={SignInWithEmail}/>
                 <Stack.Screen name="Home" component={Home}/>
+                <Stack.Screen name="Dashboard" component={DashBoard}/>
+                <Stack.Screen name="SearchScreen" component={SearchScreen}/>
             </Stack.Navigator>
         </NavigationContainer>
 

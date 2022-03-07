@@ -1,8 +1,24 @@
-import React from 'react';
-import {Text, View, Image, TextInput, TouchableOpacity} from 'react-native';
+import React, {useState} from 'react';
+import {
+  Text,
+  View,
+  Image,
+  TextInput,
+  TouchableOpacity,
+  Alert,
+} from 'react-native';
 import image from '../assets/hoot.png';
 
 const SingleSignIn = ({navigation}) => {
+  const [email, setEmail] = useState();
+
+  const handleLogin = () => {
+    if (!email) {
+      Alert.alert('Please enter valid email');
+    } else {
+      navigation.navigate('Home');
+    }
+  };
   return (
     <>
       <View style={{flex: 1, backgroundColor: '#ffffff'}}>
@@ -27,6 +43,8 @@ const SingleSignIn = ({navigation}) => {
         <View>
           <TextInput
             placeholder="email@example.com"
+            value={email}
+            onChange={(text) => setEmail(text)}
             style={{
               borderWidth: 0.5,
               paddingLeft: 20,
@@ -37,7 +55,7 @@ const SingleSignIn = ({navigation}) => {
         </View>
         <View style={{marginTop: 20}}>
           <TouchableOpacity
-            onPress={() => navigation.navigate('Home')}
+            onPress={() => handleLogin()}
             style={{
               justifyContent: 'center',
               borderRadius: 9,
